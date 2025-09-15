@@ -1,7 +1,7 @@
 
 # sg-taxi-tracker
 
-![CI](https://github.com/ramzie007/sg-taxi-tracker/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/ramzie007/sg-taxi-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/ramzie007/sg-taxi-tracker/actions/workflows/ci.yml)
 
 **A Python tool to analyze and display Singapore’s busiest taxi areas, with Google Maps links and area descriptions.**
 
