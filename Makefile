@@ -12,6 +12,6 @@ format:
 	black planning_areas.py
 
 test:
-	pytest tests || echo "No tests found."
+	pytest tests
 
 all: install lint format test
