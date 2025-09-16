@@ -1,0 +1,36 @@
+# Do not send secrets or local configs into Docker context
+.env
+*.env
+.env.*
+.envrc
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# VCS
+.git/
+.gitignore
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Node (if present)
+node_modules/

@@ -39,6 +39,22 @@ Run the main script:
 python main.py
 ```
 
+## Docker
+You can run this app in a Docker container:
+
+1. Build the Docker image:
+	```sh
+	docker build -t sg-taxi-tracker .
+	```
+
+2. Run the container (set your API tokens as environment variables):
+	```sh
+	docker run --rm \
+	   --env-file .env sg-taxi-tracker
+	```
+
+This will display the output in your terminal as usual.
+
 ## Development
 Use the provided `Makefile` for common tasks:
 ```sh
