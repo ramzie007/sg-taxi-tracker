@@ -1,5 +1,5 @@
 import os
-from typing import Optional, Any
+from typing import Optional, Any, List
 import pandas as pd
 import requests
 import json
@@ -136,9 +136,6 @@ def main(top_k: int = 10):
             lat, long = coords["lat"], coords["long"]
             gmap_link = f"https://www.google.com/maps/search/?api=1&query={lat},{long}"
             area_info.append((idx, area, count, lat, long, gmap_link))
-
-        # Fetch descriptions in parallel with a loader
-        from typing import List
 
         descriptions: List[str] = [""] * len(area_info)
         with Progress(
