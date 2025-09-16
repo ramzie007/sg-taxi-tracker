@@ -12,7 +12,7 @@
 - Provides human-readable area descriptions and Google Maps links
 
 ## Requirements
-- Python 3.8+
+- Python 3.11
 - See `requirements.txt` and `dev-requirements.txt`
 
 ## Setup
@@ -34,7 +34,7 @@
 ## Usage
 Run the main script:
 ```sh
-python planning_areas.py
+python main.py
 ```
 
 ## Development
@@ -44,6 +44,7 @@ make install   # Install dependencies
 make lint      # Lint code with flake8
 make format    # Format code with black
 make test      # Run tests
+make all       # Run all
 ```
 
 ## Testing & CI
