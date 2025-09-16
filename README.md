@@ -5,6 +5,8 @@
 
 **A Python tool to analyze and display Singapore’s busiest taxi areas, with Google Maps links and area descriptions.**
 
+![Demo Screenshot](images/demo.png)
+
 ## Features
 - Fetches real-time taxi locations from Data.gov.sg
 - Maps taxis to Singapore planning areas using OneMap

@@ -6,10 +6,10 @@ install:
 	pip install -r requirements.txt
 	pip install -r dev-requirements.txt
 lint:
-	flake8 planning_areas.py
+	flake8 main.py
 
 format:
-	black planning_areas.py
+	black main.py
 
 test:
 	pytest tests
